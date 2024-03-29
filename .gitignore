@@ -1,0 +1,13 @@
+venv
+.idea
+__pycache__
+db.sqlite3
+migrations
+media
+staticfiles
+cert.crt
+cert.key
+.vscode
+New
+shop/__pycache__
+config/__pycache__
