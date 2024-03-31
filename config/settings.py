@@ -132,3 +132,11 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 CART_SESSION_ID = 'cart'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+# Stripe settings
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51P0DfIRpZXqJU2Rm8HR9S5Pye1wQWrXnlwekNOFfW5jlPWLZgTA9fWbw0JD9uQfzJYP3cq7qXSzNxdHs5CMqbnXT00k0DBKqGx'
+STRIPE_SECRET_KEY = 'sk_test_51P0DfIRpZXqJU2Rm93gsEpZKeys93IJWZTKZOa74Um2xyQpJ6UH5cttgAUgK8pIpUdUfaMWc0p3oZr0sIVxU8TSm00KzF7Knbc'
+STRIPE_API_VERSION = '2023-10-16'
