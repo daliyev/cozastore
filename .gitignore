@@ -8,5 +8,4 @@ staticfiles
 cert.crt
 cert.key
 .vscode
-shop/__pycache__
-config/__pycache__
+
